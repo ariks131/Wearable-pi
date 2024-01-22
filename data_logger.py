@@ -42,6 +42,7 @@ if __name__ == '__main__':
     # TODO: Open csv file
     # with open("log_data.csv","w", newline="") as file:
     # writer = csv.writer(file)
+    # testing
     file = open("log_data.csv","w")
     file.write("Time,ECG,PCG,PPG\n")
     count = 0
